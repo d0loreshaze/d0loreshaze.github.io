@@ -1,8 +1,8 @@
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update -y
+sudo apt-get upgrade -y
 wget https://d0lores.github.io/imgur.sh
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
-sudo apt install ./teamviewer_amd64.deb
+sudo apt install ./teamviewer_amd64.deb -y
 teamviewer license accept
 teamviewer daemon restart
 teamviewer
